@@ -12,7 +12,6 @@ default_text = '@EvuIving'
 
 @client.on(events.NewMessage)
 async def handler(event):
-    # آیدی عددی کانالتون
     if event.is_channel and event.chat_id == -1001634646053:
         
         new_message = event.message.message + default_text
